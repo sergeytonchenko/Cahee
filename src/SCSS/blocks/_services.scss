@@ -1,0 +1,135 @@
+.services {
+    & {
+        background-color: #70bfff;
+    }
+    &__block {
+        &{
+            @media (max-width: 991px) {
+                display: flex;
+                flex-direction: column-reverse !important;
+            }
+        }      
+    }
+    &__nav {
+            & {
+                margin-top: 179px;
+                margin-bottom: 151px;
+
+                @media (max-width: 991px) {
+                    margin-top: 50px;
+                    margin-bottom: 30px;
+                    }
+                @media (max-width: 575px) {
+                    padding-top: 0px;
+                    }
+            }
+    }
+    &__item {
+        &{
+            height: 100px;
+            padding-right: 20px;
+            margin-bottom: 20px;
+            background-color: white;
+            width: 100%;            
+        }
+        &:hover {
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+            cursor: pointer;
+
+        }
+    }
+    &__link {
+        & {
+            display: block;
+            margin: 0 auto;
+            width: 80%;
+            color: #262626;
+            font-family: 'Raleway', sans-serif;
+            font-size: 20px;
+            font-weight: 700;
+            text-decoration: none;
+            text-align: center;
+            pointer-events: none;
+
+            @media (max-width: 767px) {
+                font-size: 30px;
+                }
+            @media (max-width: 575px) {
+                font-size: 1.5em;
+                }
+        }
+    }
+    &__header {
+        color: white;
+        font-family: 'Raleway', sans-serif;
+        font-size: 90px;
+        font-weight: 700;
+        position: absolute;
+        top: 320px;
+        left: 42px;
+        
+        @media (max-width: 1199px) {
+            font-size: 70px;
+            left: 102px;
+            }
+        @media (max-width: 991px) {
+                top: 250px;
+                left: 30px;
+                font-size: 50px;
+            }
+        @media (max-width: 767px) {
+                top: 250px;
+                left: 10px;
+                font-size: 85px;
+            }
+        @media (max-width: 575px) {
+                top: 50%;
+                left: 27px;
+                font-size: 14vw;
+            }
+        }
+    
+}
+.item__icon {
+    & {
+        width: 20%;
+        font-size: 45px;
+        padding-left: 20px;
+        border-left: 1px solid #9d9d9d;
+        height: 100px;
+        padding-top: 25px;
+        pointer-events: none;
+
+        @media (max-width: 991px) {
+            padding-left: 14px;
+            }
+        @media (max-width: 767px) {
+            font-size: 60px;
+            padding-left: 22px;
+            }
+        @media (max-width: 575px) {
+            padding-top: 20px;
+            font-size: 3em;
+            padding-left: 4%;
+            }
+    }
+   
+}
+.tomato__img {
+        width: 100%;
+        padding-top: 99px;
+        padding-left: 106px;
+        position: relative;
+
+        @media (max-width: 991px) {
+            padding-left: 34px;
+            }
+        @media (max-width: 767px) {
+            padding-left: 0px;
+            padding-top: 25px;
+        }
+}
+    
+
+
+

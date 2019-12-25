@@ -1,0 +1,105 @@
+.subscribe {
+    & {
+        background-image: url(../img/subscribe.png);
+        background-position: top;
+        background-size: auto auto;
+    }
+    &__title {
+        color: #262626;
+    font-family: 'Raleway', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    padding-top: 140px;
+
+    @media (max-width: 992px) {
+            padding-top: 50px;
+            text-align: center;
+        }
+    @media (max-width: 349px) {
+            font-weight: 300;
+        }
+    }
+    &__subtitle {
+        color: #262626;
+        font-family: 'Raleway', sans-serif;
+        font-size: 17px;
+        font-weight: 300;
+        line-height: 27px;
+        padding-top: 21px;
+
+        @media (max-width: 992px) {
+            text-align: center;        
+        }
+        @media (max-width: 767px) {
+            font-weight: 600;
+        }
+        @media (max-width: 575px) {
+            font-weight: 700;
+        }
+    }
+    &__email {
+        color: #262626;
+        font-family: 'Raleway', sans-serif;
+        font-size: 15px;
+        font-weight: 300;
+        padding-top: 27px;
+        padding-bottom: 163px;
+
+        @media (max-width: 992px) {
+           padding-bottom: 50px;
+           }
+        @media (max-width: 575px) {
+           padding-bottom: 20px;
+        }
+    }
+    &__input::placeholder {
+        opacity: 0.5;
+    }
+    &__input {
+           border: 1px solid black;
+        padding-top: 18px;
+        padding-bottom: 18px;
+    }
+    &__button {
+            margin-top: 283px;
+
+            @media (max-width: 992px) {
+                    margin-top: 0px;
+                    margin-bottom: 50px;
+                }
+    }
+    &__submit {
+        & {
+            padding: 0;
+            border: none;
+            color: white;
+            font-family: 'Raleway', sans-serif;
+            font-size: 20px;
+            font-weight: 300;
+            height: 55px;
+            background-color: #96b92c;
+        }
+        &:hover {
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+            cursor: pointer;
+        }
+        &:active {
+            filter: invert(1);
+        }
+    }
+    &__image {
+            width: 100%;
+            position: relative;
+        }
+}
+
+
+
+
+
+
+    
+
+
+
+        
