@@ -4101,7 +4101,8 @@ body {
 .subscribe {
   background-image: url(../img/subscribe.png);
   background-position: top;
-  background-size: auto auto; }
+  background-size: auto auto;
+  background-repeat: no-repeat; }
 
 .subscribe__title {
   color: #262626;
