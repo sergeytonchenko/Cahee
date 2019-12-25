@@ -3424,20 +3424,11 @@ body {
       padding-top: 44%;
       line-height: 0; } }
 
-.footer {
-  background-color: #262626;
-  background-position: bottom; }
-
-.footer_bg {
+.footer__up {
   background-image: url(../img/footer.png);
   background-position: top;
-  background-repeat: no-repeat; }
-  @media (max-width: 767px) {
-    .footer_bg {
-      background-size: 181vh; } }
-  @media (max-width: 575px) {
-    .footer_bg {
-      background-size: 183vh; } }
+  background-repeat: no-repeat;
+  background-size: cover; }
 
 .footer__header {
   text-align: center; }
@@ -3450,13 +3441,15 @@ body {
   line-height: 25px;
   margin-top: 121px;
   margin-bottom: 62px; }
-  @media (max-width: 767px) {
-    .footer__title {
-      margin-top: 15%;
-      margin-bottom: 10%; } }
-  @media (max-width: 500px) {
-    .footer__title {
-      font-size: 60px; } }
+
+@media (max-width: 767px) {
+  .footer__title {
+    margin-top: 15%;
+    margin-bottom: 10%; } }
+
+@media (max-width: 500px) {
+  .footer__title {
+    font-size: 60px; } }
 
 .footer__subtitle {
   color: #262626;
@@ -3465,9 +3458,10 @@ body {
   font-weight: 300;
   line-height: 25px;
   margin-bottom: 43px; }
-  @media (max-width: 767px) {
-    .footer__subtitle {
-      margin-bottom: 0; } }
+
+@media (max-width: 767px) {
+  .footer__subtitle {
+    margin-bottom: 0; } }
 
 .footer__info {
   color: #262626;
@@ -3476,11 +3470,15 @@ body {
   font-size: 20px;
   font-weight: 300;
   margin-top: -6px; }
-  @media (max-width: 767px) {
-    .footer__info {
-      margin-top: 5%;
-      margin-bottom: 5%;
-      text-align: center; } }
+
+@media (max-width: 767px) {
+  .footer__info {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    text-align: center; } }
+
+.footer__down {
+  background-color: #262626; }
 
 .footer__footer {
   padding-top: 43px;
@@ -3495,10 +3493,11 @@ body {
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between; }
-  @media (max-width: 575px) {
-    .footer__footer {
-      padding-top: 4%;
-      padding-bottom: 4%; } }
+
+@media (max-width: 575px) {
+  .footer__footer {
+    padding-top: 4%;
+    padding-bottom: 4%; } }
 
 .footer__copy {
   color: #b9b9b9;
@@ -3580,8 +3579,7 @@ body {
   .form__btn {
     width: 100%; } }
 
-.form__name, .form__email,
-.form__phone, .form__message {
+.form__name, .form__email, .form__phone, .form__message {
   padding-bottom: 15px; }
 
 .name__input, .email__input,
