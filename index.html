@@ -237,7 +237,7 @@
             </div>
         </div>
         <div class="footer">
-            <div class="footer_bg">
+            <div class="footer__up">
                 <div class="container">
                     <div class="row">
                         <div class="col-12">
@@ -254,14 +254,14 @@
                                 <form id="forma" action="" method="get">
                                     <div class="form__name">
                                         <input name="name" type="text" maxlength="30" class="name__input"
-                                            placeholder="Your name...">
+                                            placeholder="Your name..." required>
                                     </div>
                                     <div class="form__email">
-                                        <input name="email" type="email" class="email__input" placeholder="Your email...">
+                                        <input name="email" type="email" class="email__input" placeholder="Your email..." required>
                                     </div>
                                     <div class="form__phone">
                                         <input name="phone" type="text" data-mask="(000) 000 00 00" class="phone__input"
-                                            placeholder="Your phone number...">
+                                            placeholder="Your phone number..." required>
                                     </div>
                                     <div class="form__message">
                                         <textarea name="message" id="forma" cols="30" rows="10" wrap="soft"
@@ -285,21 +285,28 @@
                                 <p class="info__subtitle"><a class="info__phone" href="javascript:void(0)">+012 345 6789</a>
                                 </p>
                             </div>
-                        </div>
-                        <div class="footer__footer col-12 order-3">
-                            <div class="col-4">
-                                <p class="footer__copy">&copy; 2015 Company. All right reserved.</p>
-                            </div>
-                            <div class="col-4 d-flex flex-row justify-content-center align-items-center">
-                                <a href="javascript:void(0)" class="footer__logo">Cahee</a>
-                            </div>
-                            <div class="col-4">
-                                <p class="footer__author">Made with <a href="javascript:void(0)" class="love">love</a> by Auskteez</p>
-                            </div>                            
-                        </div>
+                        </div>                    
                     </div>
                 </div>
             </div>
+        <div class="footer__down">
+            <div class="container">
+                <div class="row">
+                    <div class="footer__footer col-12 order-3">
+                        <div class="col-4">
+                            <p class="footer__copy">&copy; 2015 Company. All right reserved.</p>
+                        </div>
+                        <div class="col-4 d-flex flex-row justify-content-center align-items-center">
+                            <a href="javascript:void(0)" class="footer__logo">Cahee</a>
+                        </div>
+                        <div class="col-4">
+                            <p class="footer__author">Made with <a href="javascript:void(0)" class="love">love</a> by Auskteez</p>
+                        </div>
+                </div>
+            </div>
+                                        
+            </div>
+        </div>
         </div>
     </div>
         <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
