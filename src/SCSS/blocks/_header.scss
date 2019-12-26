@@ -1,8 +1,26 @@
 .header{
     & {
-        background-image: url('../img/header_bg.png');
-        background-position: top;
+        background-image: url(../../../img/header@x1.png);
+        background-position: top 60% right 20%;
         background-size: auto auto;
+        background-repeat: no-repeat;
+
+        @media screen and (min-resolution: 2dppx) {
+            background-size: 52.5%;            
+            background-image: url(../../../img/header@x2.png);
+        }
+        
+        @media screen and (min-resolution: 3dppx) {
+            background-size: 52.5%;
+            background-image: url(../../../img/header@x3.png);
+        }
+        @media (max-width: 992px) {
+            background-size: 40%;
+            background-position: top 60% right 10%;
+        }
+        @media (max-width: 575px) {
+            background-image: none;
+        }
     }
     &__logo {
         & {
