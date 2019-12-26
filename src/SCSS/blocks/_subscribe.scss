@@ -1,18 +1,18 @@
 .subscribe {
     & {
-        background-image: url(../../../img/subscribeX1.png);
+        background-image: url(../img/subscribeX1.png);
         background-position: top 50% right 10%;
         background-size: auto auto;
         background-repeat: no-repeat;
 
         @media screen and (min-resolution: 2dppx) {
             background-size: 39%;            
-            background-image: url(../../../img/subscribeX2.png);
+            background-image: url(../img/subscribeX2.png);
         }
         
         @media screen and (min-resolution: 3dppx) {
             background-size: 39%;
-            background-image: url(../../../img/subscribeX3.png);
+            background-image: url(../img/subscribeX3.png);
         }
         @media (max-width: 992px) {
             background-image: none;

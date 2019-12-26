@@ -3154,11 +3154,11 @@ body {
   @media screen and (-webkit-min-device-pixel-ratio: 2), screen and (-o-min-device-pixel-ratio: 2/1), screen and (min-resolution: 2dppx) {
     .about__img {
       background-size: 52.5%;
-      content: url(../../../img/about@x2.png); } }
+      content: url(../img/about@x2.png); } }
   @media screen and (-webkit-min-device-pixel-ratio: 3), screen and (-o-min-device-pixel-ratio: 3/1), screen and (min-resolution: 3dppx) {
     .about__img {
       background-size: 52.5%;
-      content: url(../../../img/about@x3.png); } }
+      content: url(../img/about@x3.png); } }
   @media (max-width: 1199px) {
     .about__img {
       margin-top: 180px;
@@ -3273,27 +3273,27 @@ body {
 
 @media screen and (-webkit-min-device-pixel-ratio: 2), screen and (-o-min-device-pixel-ratio: 2/1), screen and (min-resolution: 2dppx) {
   .blog__img1 {
-    content: url(../../../img/blog1_@x2.jpg); } }
+    content: url(../img/blog1_@x2.jpg); } }
 
 @media screen and (-webkit-min-device-pixel-ratio: 3), screen and (-o-min-device-pixel-ratio: 3/1), screen and (min-resolution: 3dppx) {
   .blog__img1 {
-    content: url(../../../img/blog1_@x3.jpg); } }
+    content: url(../img/blog1_@x3.jpg); } }
 
 @media screen and (-webkit-min-device-pixel-ratio: 2), screen and (-o-min-device-pixel-ratio: 2/1), screen and (min-resolution: 2dppx) {
   .blog__img2 {
-    content: url(../../../img/blog2_@x2.jpg); } }
+    content: url(../img/blog2_@x2.jpg); } }
 
 @media screen and (-webkit-min-device-pixel-ratio: 3), screen and (-o-min-device-pixel-ratio: 3/1), screen and (min-resolution: 3dppx) {
   .blog__img2 {
-    content: url(../../../img/blog2_@x3.jpg); } }
+    content: url(../img/blog2_@x3.jpg); } }
 
 @media screen and (-webkit-min-device-pixel-ratio: 2), screen and (-o-min-device-pixel-ratio: 2/1), screen and (min-resolution: 2dppx) {
   .blog__img3 {
-    content: url(../../../img/blog3_@x2.jpg); } }
+    content: url(../img/blog3_@x2.jpg); } }
 
 @media screen and (-webkit-min-device-pixel-ratio: 3), screen and (-o-min-device-pixel-ratio: 3/1), screen and (min-resolution: 3dppx) {
   .blog__img3 {
-    content: url(../../../img/blog3_@x3.jpg); } }
+    content: url(../img/blog3_@x3.jpg); } }
 
 .blog__btn {
   width: 170px;
@@ -3463,15 +3463,16 @@ body {
       line-height: 0; } }
 
 .footer__up {
-  background-image: url(../../../img/contact@x1.jpg);
+  background-image: url(../img/contact@x1.jpg);
+  background-position: top;
   background-repeat: no-repeat;
   background-size: cover; }
   @media screen and (-webkit-min-device-pixel-ratio: 2), screen and (-o-min-device-pixel-ratio: 2/1), screen and (min-resolution: 2dppx) {
     .footer__up {
-      background-image: url(../../../img/contact@x2.jpg); } }
+      background-image: url(../img/contact@x2.jpg); } }
   @media screen and (-webkit-min-device-pixel-ratio: 3), screen and (-o-min-device-pixel-ratio: 3/1), screen and (min-resolution: 3dppx) {
     .footer__up {
-      background-image: url(../../../img/contact@x3.jpg); } }
+      background-image: url(../img/contact@x3.jpg); } }
 
 .footer__header {
   text-align: center; }
@@ -3790,43 +3791,43 @@ body {
 
 @media screen and (-webkit-min-device-pixel-ratio: 2), screen and (-o-min-device-pixel-ratio: 2/1), screen and (min-resolution: 2dppx) {
   .gallery__img1 {
-    content: url(../../../img/gallery01@x2.jpg); } }
+    content: url(../img/gallery01@x2.jpg); } }
 
 @media screen and (-webkit-min-device-pixel-ratio: 3), screen and (-o-min-device-pixel-ratio: 3/1), screen and (min-resolution: 3dppx) {
   .gallery__img1 {
-    content: url(../../../img/gallery01@x3.jpg); } }
+    content: url(../img/gallery01@x3.jpg); } }
 
 @media screen and (-webkit-min-device-pixel-ratio: 2), screen and (-o-min-device-pixel-ratio: 2/1), screen and (min-resolution: 2dppx) {
   .gallery__img2 {
-    content: url(../../../img/gallery02@2.png); } }
+    content: url(../img/gallery02@2.png); } }
 
 @media screen and (-webkit-min-device-pixel-ratio: 3), screen and (-o-min-device-pixel-ratio: 3/1), screen and (min-resolution: 3dppx) {
   .gallery__img2 {
-    content: url(../../../img/gallery02@3.png); } }
+    content: url(../img/gallery02@3.png); } }
 
 @media screen and (-webkit-min-device-pixel-ratio: 2), screen and (-o-min-device-pixel-ratio: 2/1), screen and (min-resolution: 2dppx) {
   .gallery__img3 {
-    content: url(../../../img/gallery03@2.png); } }
+    content: url(../img/gallery03@2.png); } }
 
 @media screen and (-webkit-min-device-pixel-ratio: 3), screen and (-o-min-device-pixel-ratio: 3/1), screen and (min-resolution: 3dppx) {
   .gallery__img3 {
-    content: url(../../../img/gallery03@3.png); } }
+    content: url(../img/gallery03@3.png); } }
 
 @media screen and (-webkit-min-device-pixel-ratio: 2), screen and (-o-min-device-pixel-ratio: 2/1), screen and (min-resolution: 2dppx) {
   .gallery__img4 {
-    content: url(../../../img/gallery04@2.png); } }
+    content: url(../img/gallery04@2.png); } }
 
 @media screen and (-webkit-min-device-pixel-ratio: 3), screen and (-o-min-device-pixel-ratio: 3/1), screen and (min-resolution: 3dppx) {
   .gallery__img4 {
-    content: url(../../../img/gallery04@3.png); } }
+    content: url(../img/gallery04@3.png); } }
 
 @media screen and (-webkit-min-device-pixel-ratio: 2), screen and (-o-min-device-pixel-ratio: 2/1), screen and (min-resolution: 2dppx) {
   .gallery__img5 {
-    content: url(../../../img/gallery05@x2.jpg); } }
+    content: url(../img/gallery05@x2.jpg); } }
 
 @media screen and (-webkit-min-device-pixel-ratio: 3), screen and (-o-min-device-pixel-ratio: 3/1), screen and (min-resolution: 3dppx) {
   .gallery__img5 {
-    content: url(../../../img/gallery05@x3.jpg); } }
+    content: url(../img/gallery05@x3.jpg); } }
 
 .gallery__button {
   display: block;
@@ -3873,18 +3874,18 @@ body {
     padding: 0; } }
 
 .header {
-  background-image: url(../../../img/header@x1.png);
+  background-image: url(../img/header@x1.png);
   background-position: top 60% right 20%;
   background-size: auto auto;
   background-repeat: no-repeat; }
   @media screen and (-webkit-min-device-pixel-ratio: 2), screen and (-o-min-device-pixel-ratio: 2/1), screen and (min-resolution: 2dppx) {
     .header {
       background-size: 52.5%;
-      background-image: url(../../../img/header@x2.png); } }
+      background-image: url(../img/header@x2.png); } }
   @media screen and (-webkit-min-device-pixel-ratio: 3), screen and (-o-min-device-pixel-ratio: 3/1), screen and (min-resolution: 3dppx) {
     .header {
       background-size: 52.5%;
-      background-image: url(../../../img/header@x3.png); } }
+      background-image: url(../img/header@x3.png); } }
   @media (max-width: 992px) {
     .header {
       background-size: 40%;
@@ -4253,11 +4254,11 @@ nav {
   @media screen and (-webkit-min-device-pixel-ratio: 2), screen and (-o-min-device-pixel-ratio: 2/1), screen and (min-resolution: 2dppx) {
     .tomato__img {
       background-size: 52.5%;
-      content: url(../../../img/services@x2.png); } }
+      content: url(../img/services@x2.png); } }
   @media screen and (-webkit-min-device-pixel-ratio: 3), screen and (-o-min-device-pixel-ratio: 3/1), screen and (min-resolution: 3dppx) {
     .tomato__img {
       background-size: 52.5%;
-      content: url(../../../img/services@x3.png); } }
+      content: url(../img/services@x3.png); } }
   @media (max-width: 991px) {
     .tomato__img {
       padding-left: 34px; } }
@@ -4267,18 +4268,18 @@ nav {
       padding-top: 25px; } }
 
 .subscribe {
-  background-image: url(../../../img/subscribeX1.png);
+  background-image: url(../img/subscribeX1.png);
   background-position: top 50% right 10%;
   background-size: auto auto;
   background-repeat: no-repeat; }
   @media screen and (-webkit-min-device-pixel-ratio: 2), screen and (-o-min-device-pixel-ratio: 2/1), screen and (min-resolution: 2dppx) {
     .subscribe {
       background-size: 39%;
-      background-image: url(../../../img/subscribeX2.png); } }
+      background-image: url(../img/subscribeX2.png); } }
   @media screen and (-webkit-min-device-pixel-ratio: 3), screen and (-o-min-device-pixel-ratio: 3/1), screen and (min-resolution: 3dppx) {
     .subscribe {
       background-size: 39%;
-      background-image: url(../../../img/subscribeX3.png); } }
+      background-image: url(../img/subscribeX3.png); } }
   @media (max-width: 992px) {
     .subscribe {
       background-image: none; } }

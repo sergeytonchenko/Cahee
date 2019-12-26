@@ -67,26 +67,26 @@
     }
     &__img1 {
         @media screen and (min-resolution: 2dppx) {            
-            content: url(../../../img/blog1_@x2.jpg);
+            content: url(../img/blog1_@x2.jpg);
         }    
         @media screen and (min-resolution: 3dppx) {
-            content: url(../../../img/blog1_@x3.jpg);
+            content: url(../img/blog1_@x3.jpg);
         }
     }
     &__img2 {
         @media screen and (min-resolution: 2dppx) {            
-            content: url(../../../img/blog2_@x2.jpg);
+            content: url(../img/blog2_@x2.jpg);
         }    
         @media screen and (min-resolution: 3dppx) {
-            content: url(../../../img/blog2_@x3.jpg);
+            content: url(../img/blog2_@x3.jpg);
         }
     }
     &__img3 {
         @media screen and (min-resolution: 2dppx) {            
-            content: url(../../../img/blog3_@x2.jpg);
+            content: url(../img/blog3_@x2.jpg);
         }    
         @media screen and (min-resolution: 3dppx) {            
-            content: url(../../../img/blog3_@x3.jpg);
+            content: url(../img/blog3_@x3.jpg);
         }
     }
 

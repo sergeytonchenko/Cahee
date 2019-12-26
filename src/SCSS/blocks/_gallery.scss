@@ -89,42 +89,42 @@
 
     &__img1 {
         @media screen and (min-resolution: 2dppx) {            
-            content: url(../../../img/gallery01@x2.jpg);
+            content: url(../img/gallery01@x2.jpg);
         }    
         @media screen and (min-resolution: 3dppx) {
-            content: url(../../../img/gallery01@x3.jpg);
+            content: url(../img/gallery01@x3.jpg);
         }
     }
     &__img2 {
         @media screen and (min-resolution: 2dppx) {            
-            content: url(../../../img/gallery02@2.png);
+            content: url(../img/gallery02@2.png);
         }    
         @media screen and (min-resolution: 3dppx) {
-            content: url(../../../img/gallery02@3.png);
+            content: url(../img/gallery02@3.png);
         }
     }
     &__img3 {
         @media screen and (min-resolution: 2dppx) {            
-            content: url(../../../img/gallery03@2.png);
+            content: url(../img/gallery03@2.png);
         }    
         @media screen and (min-resolution: 3dppx) {            
-            content: url(../../../img/gallery03@3.png);
+            content: url(../img/gallery03@3.png);
         }
     }
     &__img4 {
         @media screen and (min-resolution: 2dppx) {            
-            content: url(../../../img/gallery04@2.png);
+            content: url(../img/gallery04@2.png);
         }    
         @media screen and (min-resolution: 3dppx) {
-            content: url(../../../img/gallery04@3.png);
+            content: url(../img/gallery04@3.png);
         }
     }
     &__img5 {
         @media screen and (min-resolution: 2dppx) {            
-            content: url(../../../img/gallery05@x2.jpg);
+            content: url(../img/gallery05@x2.jpg);
         }    
         @media screen and (min-resolution: 3dppx) {
-            content: url(../../../img/gallery05@x3.jpg);
+            content: url(../img/gallery05@x3.jpg);
         }
     }
     
