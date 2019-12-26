@@ -3868,7 +3868,10 @@ body {
   -webkit-box-direction: reverse;
   -ms-flex-direction: row-reverse;
   flex-direction: row-reverse;
-  margin-top: -60px; }
+  margin-top: 35px; }
+  @media (max-width: 767px) {
+    .header__menu {
+      margin-top: -60px; } }
 
 .logo__link {
   color: #262626;
@@ -3913,19 +3916,23 @@ body {
   top: -9px; }
 
 nav {
-  height: 65px; }
+  height: 65px;
+  width: 100%; }
 
 .menu__toggle {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: end;
+  -ms-flex-align: end;
+  align-items: flex-end;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
   flex-direction: column;
   position: relative;
-  top: 25px;
-  left: 0;
+  top: 28px;
+  right: 0;
   z-index: 1;
   -webkit-user-select: none;
   -moz-user-select: none;
@@ -3939,7 +3946,7 @@ nav {
     height: 42px;
     position: absolute;
     top: -11px;
-    left: -5px;
+    right: -5px;
     cursor: pointer;
     opacity: 0;
     z-index: 2; }
@@ -3986,31 +3993,55 @@ nav {
     -ms-transform: rotate(-45deg) translate(0, -1px);
     transform: rotate(-45deg) translate(0, -1px); }
   .menu__toggle input:checked ~ ul {
-    opacity: .7; }
+    opacity: .8; }
 
 .menu__link {
   position: absolute;
-  width: 320px;
-  height: 300px;
+  width: 100%;
+  height: 320px;
+  padding-top: 30px;
+  padding-bottom: 10px;
   -webkit-box-shadow: 0 0 10px #85888C;
   box-shadow: 0 0 10px #85888C;
-  top: -5px;
-  right: 50px;
-  padding: 50px;
-  padding-top: 42px;
+  top: 38px;
   opacity: 0;
   background-color: #F5F6FA;
   -webkit-transition: all 0.5s linear;
   -o-transition: all 0.5s linear;
-  transition: all 0.5s linear; }
+  transition: all 0.5s linear;
+  text-align: center; }
+  @media (max-width: 768px) {
+    .menu__link {
+      height: 220px;
+      top: 38px;
+      padding-top: 5px;
+      padding-bottom: 0; } }
   .menu__link li {
-    padding: 10px 0;
-    -webkit-transition-delay: 2s;
-    -o-transition-delay: 2s;
-    transition-delay: 2s; }
+    padding: 15px; }
+    @media (max-width: 768px) {
+      .menu__link li {
+        padding: 10px; } }
 
-li:hover {
-  background-color: #ff6033; }
+.menu__item a {
+  color: #262626;
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-decoration: none;
+  cursor: pointer; }
+
+.menu__item:hover {
+  background-color: #ff6033;
+  cursor: pointer; }
+
+.menu__item:active {
+  opacity: 1;
+  background-color: brown; }
+
+.menu__item:active a {
+  opacity: 1;
+  color: white; }
 
 .services {
   background-color: #70bfff; }
