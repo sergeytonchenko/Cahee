@@ -121,6 +121,15 @@
         padding-left: 106px;
         position: relative;
 
+        @media screen and (min-resolution: 2dppx) {
+            background-size: 52.5%;            
+            content: url(../../../img/services@x2.png);
+        }    
+        @media screen and (min-resolution: 3dppx) {
+            background-size: 52.5%;
+            content: url(../../../img/services@x3.png);
+        }
+
         @media (max-width: 991px) {
             padding-left: 34px;
             }

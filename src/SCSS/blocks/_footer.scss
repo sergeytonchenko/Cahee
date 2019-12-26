@@ -1,9 +1,19 @@
 .footer {
     &__up {
-        background-image: url(../img/footer.png);
+        background-image: url(../../../img/contact@x1.jpg);
         background-position: top;
         background-repeat: no-repeat;
         background-size: cover; 
+
+        @media screen and (min-resolution: 2dppx) {
+          // background-size: 52.5%;            
+          background-image: url(../../../img/contact@x2.jpg);
+      }
+      
+      @media screen and (min-resolution: 3dppx) {
+          // background-size: 52.5%;
+          background-image: url(../../../img/contact@x3.jpg);
+      }
     }
       
     &__header {
