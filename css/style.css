@@ -3652,7 +3652,10 @@ body {
   color: white;
   font-family: 'Raleway', sans-serif;
   font-size: 15px;
-  font-weight: 700; }
+  font-weight: 700;
+  outline: none;
+  resize: none;
+  overflow: auto; }
 
 .name__input::-webkit-input-placeholder, .email__input::-webkit-input-placeholder,
 .phone__input::-webkit-input-placeholder, .message__input::-webkit-input-placeholder {
