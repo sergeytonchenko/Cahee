@@ -141,8 +141,7 @@
         width: 60px;
         height: 60px;
         border-radius: 5px;
-        background-color: #262626;
-        opacity: 0.5;
+        background-color: #26262685;        
         position: absolute;
         top: 30px;
         left: 45px;
@@ -185,7 +184,7 @@
         }
     }
     &__title {
-        color: black;
+        color: white;
         font-family: 'Raleway';
         line-height: 25px;
         font-size: 20px;
@@ -202,7 +201,7 @@
             }
     }
     &__author {
-        color: black;
+        color: white;
         font-family: 'Raleway';
         line-height: 25px;
         font-size: 13px;
