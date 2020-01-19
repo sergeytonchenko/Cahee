@@ -3350,7 +3350,7 @@ body {
   width: 60px;
   height: 60px;
   border-radius: 5px;
-  background-color: #26262685;
+  background-color: rgba(0, 0, 0, 0.356);
   position: absolute;
   top: 30px;
   left: 45px;
